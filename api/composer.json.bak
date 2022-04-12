@@ -32,7 +32,7 @@
         "symfony/twig-bundle": "6.0.*",
         "symfony/validator": "6.0.*",
         "symfony/yaml": "6.0.*",
-        "syndesi/neo4j-sync-bundle": "dev-prerelease"
+        "syndesi/neo4j-sync-bundle": "*@dev"
     },
     "require-dev": {
         "api-platform/schema-generator": "^4.0",
@@ -98,10 +98,10 @@
             "require": "6.0.*"
         }
     },
-    "repositories":[
+    "repositories": [
         {
-            "type": "vcs",
-            "url": "git@github.com:Syndesi/neo4j-sync-bundle.git"
+            "type": "path",
+            "url": "./lib/Neo4jSyncBundle"
         }
     ]
 }

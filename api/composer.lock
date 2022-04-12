@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "100b644dcc5dc792dc05a52dbfe39f70",
+    "content-hash": "5062cc51fc7be562bccef9385790f028",
     "packages": [
         {
             "name": "api-platform/core",
@@ -8054,11 +8054,17 @@
         },
         {
             "name": "syndesi/neo4j-sync-bundle",
-            "version": "1.0.0-RC1",
+            "version": "dev-prerelease",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Syndesi/neo4j-sync-bundle.git",
+                "reference": "20799275ac12fd111b08c8073b557a7b57f59a9f"
+            },
             "dist": {
-                "type": "path",
-                "url": "./lib/Neo4jSyncBundle",
-                "reference": "33c20bf81daaaa9216ac07d645232165535d8d06"
+                "type": "zip",
+                "url": "https://api.github.com/repos/Syndesi/neo4j-sync-bundle/zipball/20799275ac12fd111b08c8073b557a7b57f59a9f",
+                "reference": "20799275ac12fd111b08c8073b557a7b57f59a9f",
+                "shasum": ""
             },
             "require": {
                 "doctrine/annotations": "^1.0",
@@ -8076,6 +8082,7 @@
                 "symfony/phpunit-bridge": "^6.0",
                 "symfony/test-pack": "^1.0"
             },
+            "default-branch": true,
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
@@ -8118,9 +8125,11 @@
                 "symfony",
                 "sync"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "source": "https://github.com/Syndesi/neo4j-sync-bundle/tree/prerelease",
+                "issues": "https://github.com/Syndesi/neo4j-sync-bundle/issues"
+            },
+            "time": "2022-04-12T08:08:52+00:00"
         },
         {
             "name": "twig/twig",
