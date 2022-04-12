@@ -1,0 +1,6 @@
+neo4j_sync:
+    clients:
+        default:
+            drivers:
+                bolt:
+                    url: 'bolt://neo4j:password@neo4j'
