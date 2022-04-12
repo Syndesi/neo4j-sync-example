@@ -3,7 +3,7 @@ Setup:
 ```bash
 cd <projectRoot>
 docker-compose up -d
-docker exec -it neo4jbundletestintegration_php_1 /bin/sh
+docker exec -it neo4j-sync-example_php_1 /bin/sh
 # innerhalb von Docker
 php bin/console neo4j-sync:index:sync
 php bin/console app:populate
